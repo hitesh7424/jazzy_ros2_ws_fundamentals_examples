@@ -1,0 +1,40 @@
+# ROS 2 build and install folders
+build/
+install/
+log/
+
+# Colcon/ament build artifacts
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.log
+
+# ROS 2 launch/params/test results
+*.launch.pyc
+*.test.pyc
+*.params.yaml
+
+# VSCode settings
+.vscode/
+
+# MacOS and Linux system files
+.DS_Store
+*.swp
+*.swo
+
+# Python virtual environments
+venv/
+.env/
+
+# ROS 2 workspace overlay files
+.colcon_install_layout
+
+# ROS 2 package index
+ros2_ws/local_setup.*
+
+
+# Other
+*.egg-info/
+*.orig
+*.bak
